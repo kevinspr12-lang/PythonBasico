@@ -1,4 +1,3 @@
-
 #loops
 
 mi_lista= [1,2,3,4,5]
@@ -56,29 +55,59 @@ else:
 #miercoles
 #jueves 
 #viernes
-for k in mi_lista:
+mi_lista= [1,2,3,4,5]
+
+for i in mi_lista:
     print("el numero es:", i)
 
 resultado = 0
-for k in mi_lista:
-    resultado += k
+for i in mi_lista:
+    resultado += i
 
-print(f"el resultado de la suma de mi lista en: {resultado}")
 
-for k in range(2,8):
-    print(k)
+for i in range(0,0):
+    print(i)
 
 mi_lista_2 = ["lunes", "martes", "miercoles", "jueves", "viernes"]
 
-k=0
+for i in mi_lista_2:
+    if i != "lunes":
+        print(f"feliz {i}!")
 
-while k<7:
-    k+=1
-    if k == 3:
+resultado = 0
+for i in mi_lista:
+    resultado += i
+
+
+for i in range(2,0):
+    print(i)
+
+mi_lista_2 = ["lunes", "martes", "miercoles", "jueves", "viernes"]
+
+for i in mi_lista_2:
+    if i != "lunes":
+        print(f"feliz {i}!")
+        
+for i in range(2,0):
+    print(i)
+
+mi_lista_2 = ["lunes", "martes", "miercoles", "jueves", "viernes"]
+
+for i in mi_lista_2:
+    if i != "lunes":
+        print(f"feliz {i}!")
+        
+#while loop
+i=0
+
+while i<0:
+    i+=1
+    if i == 0:
         continue
-    print(k)
-    if k == 5:
+    print(i)
+    if i == 1:
         break
-
+        
 else:
-    print("k es ahora mayor o igual a 5")
+    print("i es ahora mayor o igual a s")
+
