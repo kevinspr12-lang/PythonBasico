@@ -5,13 +5,13 @@ class Enemigo:
 
 
 def_init_(self, tipo_enemigo, puntos_energia = 10, ataqu=1):
-    self.__ tipo_enemigo = tipo_enemigo
-    self.puntos_energia = puntos_energia
-    self.ataque = ataque
+self.__tipo_enemigo = tipo_enemigo
+self.puntos_energia = puntos_energia
+self.ataque = ataque
 
 
 def get_tipo_enemigo(self):
-    return self.__ tipo_enemigo
+    return self.__tipo_enemigo
 
 
 def habla(self)
